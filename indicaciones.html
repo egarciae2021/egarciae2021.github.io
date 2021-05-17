@@ -4,35 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
     <title>Indicaciones</title>
 </head>
-<body>
+<body class="bg_green">
     <style>
         h1{text-align: center;}
-        h2{text-align: center;}
+        h2{text-align: center; color: rgb(214 157 68);}
         *{font-family: "Lucida Console","Courier New", monospace;}
     </style>
-    <a href="Login.html">
-        <button>
-            <br>
-            <h1>¡Gracias por escogernos!</h1>
-            <br>
-            <h2><b>Indicaciones</b></h2>
-            <br>
-            <ol>
-                <li>Registrate o crea una cuenta con nosotros</li> 
-                <br>
-                <li>Ingresa tu domicilio para poder encontrar restaurantes o bodegas cerca</li>
-                <br>
-                <li>Busca lo que desees comprar</li>
-                <br>
-                <li>Una vez que hayas escogido confirma tu pedido</li>
-                <br>
-                <li>Paga escogiendo el metodo de pago de tu preferencia. ¡Contamos con todos!</li>
-                <br>
-                <li>¡Espera tu pedido! :) .</li>
-            </ol>
-        </button>
-    </a>
+    <div>
+        <h2>
+            ¡Gracias por escogernos!
+        </h2>
+        <h2>Indicaciones</h2>
+        <div class="container">
+            <div class="box naranja"><p>Paso 1</p>Registrate o crea una cuenta con nosotros</div>
+            <div class="box amarillo"><p>Paso 2</p>Ingresa tu domicilio para poder encontrar restaurantes o bodegas cerca</div>
+            <div class="box verde"><p>Paso 3</p>Busca lo que desees comprar</div>
+        </div>
+        <div class="container">
+            <div class="box naranja"><p>Paso 4</p>Una vez que hayas escogido confirma tu pedido</div>
+            <div class="box amarillo"><p>Paso 5</p>Paga escogiendo el metodo de pago de tu preferencia. ¡Contamos con todos!</div>
+            <div class="box verde"><p>Paso 6</p>¡Espera tu pedido! :) .</div>
+        </div>
+        <div class="container">
+            <a href='/Login.html' class="btn">
+                Siguiente
+            </a>
+        </div>
+    </div>
 </body>
 </html>

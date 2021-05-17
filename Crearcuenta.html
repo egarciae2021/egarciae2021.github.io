@@ -4,38 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
     <title>Create Account</title>
 
 </head>
-<body>
-    <br>
-<br>
-
-<h1>Completa la siguiente información : </h1>
-
-<input type="text" size="50" maxlength="30" placeholder="Nombre Completo * " name="nombre" required>
-<br>
-<br>
-<input type="email" size="50" maxlength="30" placeholder="correo electronico* " name="correo_electronico" required>
-<br>
-<br>
-<input type="text" size="9" maxlength="9" placeholder="Celular * " name="celular" required>
-<br>
-<br>
-<input type="text" size="20" maxlength="20 " placeholder="Provincia *  " name="provincia" required>
-<input type="text" size="20" maxlength="20 " placeholder="Distrito *  " name="distrito" required>
-<br>
-<br>
-<input type="text" size="30" maxlength="30" placeholder="Direccion *  " name="direccion" required>
-<input type="text" size="3  " maxlength="3" placeholder="N°" name="numero_casa" required >
-<input type="text" size="3  " maxlength="3" placeholder="Piso" name="piso" >
-<br>
-<br>
-<br>
-<br>
-<button><a href="confirmar dirección.html" >Crear cuenta</a></button>
-
-
-
+<body class="verduras_bg">
+    <div class="main_container">
+        <div class="login">
+            <h1>Completa la siguiente información : </h1>
+            <input class="input" type="text" maxlength="30" placeholder="Nombre Completo * " name="nombre" required>
+            <input class="input" type="email" maxlength="30" placeholder="Correo electrónico* " name="correo_electronico" required>
+            <div class="deb_flex">
+                <input class="input2" type="text" maxlength="9" placeholder="Celular * " name="celular" required>
+                <input class="input2" type="text" maxlength="20 " placeholder="Provincia *  " name="provincia" required> 
+            </div>
+            <div class="deb_flex">
+                <input class="input2" type="text" maxlength="20 " placeholder="Distrito *  " name="distrito" required>
+                <input class="input2" type="text" maxlength="30" placeholder="Dirección *  " name="direccion" required>
+            </div>
+            <div class="deb_flex">
+                <input class="input2" type="text" maxlength="3" placeholder="N°" name="numero_casa" required >
+                <input class="input2" type="text" maxlength="3" placeholder="Piso" name="piso" >
+            </div>
+            <a class="btn" href="confirmar_dirección.html" >Crear cuenta</a>
+        </div>
+        <div class="bg_white"></div>
+    </div>
 </body>
 </html>
