@@ -110,3 +110,68 @@ iframe
 {
     text-align: center;
 }
+.btn_green
+{
+    background-color: #8fd14f;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #8fd14f;
+    padding: 15px;
+    margin: 20px;
+    text-decoration: none;
+}
+.titulo
+{
+    text-align: center;
+    padding: 20px;
+}
+.tiendas
+{
+    display: flex;
+    justify-content: space-around;
+}
+.box_tienda
+{
+    margin: 10px;
+    padding: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: white;
+    
+}
+.box_comprar
+{
+    display: flex;
+}
+.btn_regresar
+{
+    display: flex;
+}
+.btn_regresar h1
+{
+    margin-left: 500px;
+}
+.img_jose
+{
+    text-align: center;
+}
+.conteiner
+{
+    display: flex;
+    justify-content: space-around;
+}
+.botanas
+{
+    margin: 0px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.btn_pagar
+{
+    margin-top: 200px;
+    text-align: center;
+}
+.disponible
+{
+    padding: 15px;
+}
