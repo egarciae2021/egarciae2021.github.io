@@ -4,47 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
     <title> Medio Pago</title>
 </head>
-<body>
-    <h1><strong>Escoge tu medio de pago :    </strong>    </h1>
-    <table>
-        <tr>
-            <table>
-                
-                <td><label><input type="radio" id="cbox1" value="first_checkbox"></label></td>
-                <td><IMG SRC="./multimedia/mastercard.jpeg" ALIGN=left width="300" height="300"></td>
+<body class="bg_green">
+    <div>
+        <h1 class="title"><strong>Escoge tu medio de pago :    </strong>    </h1>
+            <div class="logos_2">
+                <div class="logos">
+                    <input type="radio" id="cbox1" value="first_checkbox">
+                    <IMG SRC="./multimedia/mastercard.jpeg" ALIGN=left width="300" height="300">
+                </div>
+            
+                <div class="logos">
+                    <input type="radio" id="cbox1" value="first_checkbox">
+                    <IMG SRC="./multimedia/amex.jpeg" ALIGN=left width="300" height="300">
+                </div>
+            </div>
 
-                <td><label><input type="radio" id="cbox1" value="first_checkbox"></label></td>
-                <td><IMG SRC="./multimedia/amex.jpeg" ALIGN=left width="300" height="300"></td>
-            </table>
-        </tr>
-        <tr>
-            <table>
-                
-                <td><label><input type="radio" id="cbox1" value="first_checkbox"></label></td>
-                <td><IMG SRC="./multimedia/plin.jpeg" ALIGN=left width="300" height="300"></td>
+            <div class="logos_2">
+                <div class="logos">
+                    <input type="radio" id="cbox1" value="first_checkbox">
+                    <IMG SRC="./multimedia/plin.jpeg" ALIGN=left width="300" height="300">
+                </div>
 
-                <td><label><input type="radio" id="cbox1" value="first_checkbox"></label></td>
-                <td><IMG SRC="./multimedia/visa.jpeg" ALIGN=left width="300" height="300"></td>
-            </table>
-        </tr>
-        <tr>
-            <table>
-                
-                <td><label><input type="radio" id="cbox1" value="first_checkbox"></label></td>
-                <td><IMG SRC="./multimedia/yape.jpeg" ALIGN=left width="300" height="300"></td>
+                <div class="logos">
+                    <input type="radio" id="cbox1" value="first_checkbox">
+                    <IMG SRC="./multimedia/visa.jpeg" ALIGN=left width="300" height="300">
+                </div>
+            </div>
 
-                <td><label><input type="radio" id="cbox1" value="first_checkbox"></label></td>
-                <td><IMG SRC="./multimedia/efectivo.jpg" ALIGN=left width="300" height="300"></td>
-            </table>
-        </tr>
-    </table>
+            <div class="logos_2">
+                <div class="logos">
+                    <input type="radio" id="cbox1" value="first_checkbox">
+                    <IMG SRC="./multimedia/yape.jpeg" ALIGN=left width="300" height="300">
+                </div>
 
-
-    <button><a href="PrevioPago.html"  >Regresar</a></button>
-<button><a href="agradecimiento.html" >Finalizar</a></button>
-<button><a href="paginaerror.html" >Probar pagina de error*</a></button><br>
-*Se usa este enlace en caso la pasarela de pago presente un problema para procesar la transaccion
+                <div class="logos">
+                    <input type="radio" id="cbox1" value="first_checkbox">
+                    <IMG SRC="./multimedia/efectivo.jpg" ALIGN=left width="300" height="300">
+                </div>
+            </div>
+        <div class="botones">
+        <a class="btn" href="PrevioPago.html"  >Regresar</a>
+        <a class="btn" href="agradecimiento.html" >Finalizar</a>
+        </div>
+    </div>
 </body>
 </html>
