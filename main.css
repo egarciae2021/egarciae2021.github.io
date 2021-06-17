@@ -71,6 +71,10 @@ body
     top: 0;
     z-index: -1;
 }
+
+.p-2 {
+    margin: 35px;
+}
 .login
 {
     z-index: 9999;
@@ -93,6 +97,10 @@ body
     margin: 10px 0px;
     width: 70%;
 }
+.img-rsp {
+    max-width: 100%;
+    height: auto;
+}
 .input2
 {
     background-color: white;
@@ -105,7 +113,9 @@ body
 .deb_flex
 {
     display: flex;
-    width: 70%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
 }
 iframe
 {
@@ -143,6 +153,19 @@ iframe
     padding-right: 80px;
     background-color: white;
     
+}
+
+.line::before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 10px;
+    position: relative;
+    top: -50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #8fd14f;
 }
 .box_comprar
 {
