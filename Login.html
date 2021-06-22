@@ -6,17 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
     <title>Login</title>
-  
+    <script type="text/javascript" src="./initializador22.js"></script> 
+    
 </head>
+
 <body class="verduras_bg">
-    <div class="main_container">
+    
+      <div class="main_container">
         <div class="login">
-            <h3>Ingresa a tu cuenta, en caso de no tener una regístrate  <a href="Crearcuenta.html" class="link">aquí</a></h3>
-            <input class="input" type="text" size="50" maxlength="30" placeholder="Usuario y/o Correo Electronico" name="Usuario" required>
-            <input class="input" type="password" size="50" maxlength="30" placeholder="Contraseña" name="Contraseña" required>
-            <a class="btn" href="Crearcuenta.html">Ingresar</a>
+            <h3>Ingresa a tu cuenta, en caso de no tener una regístrate  <a href="Crearcuenta.html" class="link">Aquí</a> <br>Registra tu empresa con nostros haciendo clic  <a href="Crearcuentaempresa.html" class="link">Aquí</a></h3> 
+            <form action="#" id="form">
+            <input id="usuario_login" class="input" type="text" size="50" maxlength="30" placeholder="Usuario y/o Correo Electronico" name="Usuario" required  >
+            <input id="clave_login" class="input"  type="password" size="50" maxlength="30" placeholder="Contraseña" name="Contraseña" required><br><br>
+            <a class="btn" href="#" onclick="validar_usuario(formulario)" >Ingresar</a>
+            <h3>Si no recuerdas tu clave has clic <a href="Recuperarclave.html">Aqui</a></h3>
+        </form>
         </div>
         <div class="bg_white"></div>
     </div>
+    <script>
+                 
+                 var formulario=document.getElementById("form")
+      </script>
 </body>
 </html>
