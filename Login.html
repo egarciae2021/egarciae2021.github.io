@@ -9,6 +9,7 @@
     <script type="text/javascript" src="./initializador22.js"></script> 
     
 </head>
+<<<<<<< Updated upstream
 
 <body class="verduras_bg">
     
@@ -28,5 +29,47 @@
                  
                  var formulario=document.getElementById("form")
       </script>
+=======
+<body class="bg_snacks">
+    <div class="bg_blanco">
+        <div class="login">
+            <h3>Ingresa a tu cuenta, en caso de no tener una regístrate  <a href="Crearcuenta.html" class="link">aquí</a></h3>
+            <input class="input" type="text" size="50" maxlength="30" id="email" placeholder="Usuario y/o Correo Electronico" name="Usuario" required>
+            <input class="input" type="password" size="50" maxlength="30" id="pass" placeholder="Contraseña" name="Contraseña" required>
+            <button class="btn" id="logeo" href="">Ingresar</button>
+        </div>
+        <div class="bg_white p-2"></div>
+    </div>
+
+    <h1 id="login"></h1>
+>>>>>>> Stashed changes
 </body>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script> 
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBm1GYYrL50b-CQMQbl_8tes5NgY7EoFWY",
+    authDomain: "proyecto-eb125.firebaseapp.com",
+    databaseURL: "https://proyecto-eb125-default-rtdb.firebaseio.com",
+    projectId: "proyecto-eb125",
+    storageBucket: "proyecto-eb125.appspot.com",
+    messagingSenderId: "537770334677",
+    appId: "1:537770334677:web:424fe1a34f3fe33000055c",
+    measurementId: "G-3QL4PS0TS1"
+  };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+
+</script>
+<script src="js/login.js"></script>
+
 </html>

@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Inicio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/pulse/bootstrap.min.css">
+    <title>Comentarios</title>
 </head>
-<body class="bg_green" >
-    <div class="deb_flex">
-        <a href="./Verifica_orden.html" class="btn_green">Verifica tu Orden</a>
-        <a href="./quienessomos.html" class="btn_green">Quienes Somos</a>
-        <a href="./cobertura.html" class="btn_green">Cobertura</a>
-        <a href="/soporte.html" class="btn_green">Soporte Técnico</a>
-    </div>
-    <img class="img-rsp" src="./multimedia/Fondo.gif">     
 
-<h1 class="titulo"><strong>Recuerda que cada local tiene un horario distinto de atención ¡aprovecha de las ofertas que ofrecen todos los días!
-</strong></h1> 
+<body class="bg_verduras2"> 
+                
+     <div class="bg_blanco5">
+        <div class="bloque2">
+        <label  >
+            <input type="file" id="fichero" name="fichero" class="d-none">
+            <img src="/multimedia/17409946451553073813-128.png" alt="descargar" class="img-responsive">
+        </label>
+        </div>
 
-<select name="my_html_select_box" id ="lista_desplegable"> 
-</select>
+        <div class="bloque2">
+        <input type="text" placeholder="Tu Nombre" id="producto" value="" > </input>
+        </div>
 
-<div class="tiendas" id="tiendas2">
-<br><br><br><br><br><br>
-</div>
-<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+        <div class="bloque2">
+        <textarea name="textarea" rows="20" cols="20" id="precio"  >Registre aqui su comentario</textarea>
+        </div>
+        <div class="bloque2">
+            <button id="miBoton"  class="btn_green"  >"Registrar!"</button>            </div>
+        <div class="bloque2">
+                <button id="BtnRegresar"  class="btn_green"  >"Regresar a la tienda"</button>            </div>
+        
+     </div>
+ 
+        <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-storage.js"></script>
         <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script>
 
@@ -48,7 +57,7 @@
             firebase.initializeApp(firebaseConfig);
             firebase.analytics();
         </script>
-
-        <script src="./js/execute3.js"></script>
+        <script src="./js/execute4.js"> </script>
 </body>
+
 </html>

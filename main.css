@@ -100,6 +100,10 @@ body
 .img-rsp {
     max-width: 100%;
     height: auto;
+    margin-left: auto; 
+    display: block; margin: auto; 
+    margin-right: auto;
+
 }
 .input2
 {
@@ -147,10 +151,16 @@ iframe
 }
 .box_tienda
 {
-    margin: 10px;
-    padding: 30px;
+    margin: 5px;
+    /* padding: 30px;
     padding-left: 80px;
-    padding-right: 80px;
+    padding-right: 80px; */
+    width: auto;
+    text-align: left;
+    border-style: solid;
+    border-color: green;
+    padding-bottom : 30px;
+    
     background-color: white;
     
 }
@@ -183,6 +193,18 @@ iframe
 {
     text-align: center;
 }
+
+.bg_verduras
+{
+    background-image: url("./multimedia/verduras.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .conteiner
 {
     display: flex;
@@ -196,7 +218,7 @@ iframe
 }
 .btn_pagar
 {
-    margin-top: 200px;
+    /* margin-top: 200px; */
     text-align: center;
 }
 .disponible
@@ -267,4 +289,123 @@ iframe
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.bg_blanco2
+{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg_blanco3
+{
+    width: 1200px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg_blanco4
+{
+    width: 1200px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg_blanco5
+{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg_blanco6
+{
+    width: 500px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloque{
+    width: 500px;
+    height: 100px;
+     display: block; 
+     text-align: center;
+     position: relative;
+     top: 0%;
+     -ms-transform: translateY(-50%);
+     -webkit-transform: translateY(-50%);
+     transform: translateY(-50%);
+
+} 
+.bloque2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+} 
+.linea{
+    width: auto;
+    height: auto;
+     display: inline; 
+     text-align: center;
+     position: relative;
+     top: 0%;
+     -ms-transform: translateY(-50%);
+     -webkit-transform: translateY(-50%);
+     transform: translateY(-50%);
+
+} 
+
+label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+
+  .div{
+    display:  inline-block;
+  } 
+
+.comentarios{
+    width: auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10px;
+    width: 20%;
+    text-align: center;
+    border-style: solid     dotted
+
+}
+.bg_verduras2
+{
+    background-image: url("./multimedia/verduras.jpg");
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
