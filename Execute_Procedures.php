@@ -1,8 +1,10 @@
 <?php
+ 
+
     $user=$_POST["Usuario"];
     $clave=$_POST["Contraseña"];
-    $serverName = "localhost\DESARROLLO";
-     $connectionInfo = array( "Database"=>"master", "UID"=>"sa", "PWD"=>"Atento2019*");
+    $serverName = "localhost";
+     $connectionInfo = array( "Database"=>"web", "UID"=>"sa", "PWD"=>"Atento2019*");
      $conn = sqlsrv_connect( $serverName, $connectionInfo );
      $sql = "select * from accesos_generales  where contra='".$clave."' and correo = '".$user."'"; 
      $stmt = sqlsrv_query( $conn, $sql); 

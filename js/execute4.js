@@ -5,9 +5,8 @@ var fichero = document.getElementById("fichero");
 miBoton.addEventListener('click', subirImagenAFirebase);
 const BtnRegresar=document.getElementById("BtnRegresar")
 
-BtnRegresar.addEventListener('click',()=>{
-    window.location.href="/Bodegaseleccionada.html"
-
+BtnRegresar.addEventListener('click',()=>{ 
+    window.location.href =window.location.origin+'/proyecto//Bodegaseleccionada.html' 
 }
 )
 
@@ -25,6 +24,7 @@ function registrarEnBaseDeDatos(paramRuta, paramProducto, paramPrecio) {
         document.getElementById("precio").value = ""
 
         console.log("Document successfully written!");
+        alert("Comentario registrado correctamente")
     })
 }
 function subirImagenAFirebase() {

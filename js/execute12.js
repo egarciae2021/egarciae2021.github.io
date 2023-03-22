@@ -1,7 +1,7 @@
   
 const db = firebase.firestore();
 var variable_almacenada;
-
+var encontrado=0
 boton_obtener.addEventListener('click', () => {
     const obteniendoTareas = (unaFuncionX) => { db.collection("orden_en_proceso").onSnapshot(unaFuncionX); }
     obteniendoTareas((tarea) => {
@@ -11,9 +11,11 @@ boton_obtener.addEventListener('click', () => {
             variable_almacenada = variable_almacenada.substr(1, variable_almacenada.length - 2)
             if (obtener_estado == variable_almacenada) { 
                 document.getElementById("Estado").value =demo.data().estado
-                
+                encontrado=1
                 }
-             
+              
         })
+        if(!encontrado) {alert("Orden no encontrada")}
     })
+  
 })

@@ -1,6 +1,6 @@
 <?php 
-     $serverName = "localhost\DESARROLLO";
-     $connectionInfo = array( "Database"=>"master", "UID"=>"sa", "PWD"=>"Atento2019*");
+     $serverName = "localhost";
+     $connectionInfo = array( "Database"=>"web", "UID"=>"sa", "PWD"=>"Atento2019*");
      $conn = sqlsrv_connect( $serverName, $connectionInfo );
      $sql = "select top 5 substring(razon_sociaL,1,23) AS INICIAL ,pedido_minimo from empresas"; 
      $stmt = sqlsrv_query( $conn, $sql); 

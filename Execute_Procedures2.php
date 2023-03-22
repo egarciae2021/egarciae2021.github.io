@@ -14,8 +14,8 @@
     $bloqueado=0;
     $cadena=$nombre.",".$correo.",".$bloqueado.",".$clave.",".$cadena.",".$distrito.",".$provincia.",".$celular;
 
-    $serverName = "localhost\DESARROLLO";
-     $connectionInfo = array( "Database"=>"master", "UID"=>"sa", "PWD"=>"Atento2019*");
+    $serverName = "localhost";
+     $connectionInfo = array( "Database"=>"web", "UID"=>"sa", "PWD"=>"Atento2019*");
      $conn = sqlsrv_connect( $serverName, $connectionInfo );
  
 

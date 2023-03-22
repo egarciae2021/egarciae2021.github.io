@@ -22,7 +22,7 @@ buttonFinalizar.addEventListener('click',()=>
     var orden_generada=localStorage.getItem("orden")
     var n_orden=localStorage.getItem("Numero_orden")
     
-    db.collection("orden_terminadas").doc().set(
+    db.collection("orden_en_proceso").doc().set(
         {
            tienda:tienda_seleccion,
            pedido:orden_generada,
@@ -32,9 +32,8 @@ buttonFinalizar.addEventListener('click',()=>
         }
     ).then((snapshot) => {
         console.log("guardado");
-        
-        window.location.href="/Agradecimiento.html"
-          
+         
+        window.location.href =window.location.origin+'/proyecto/Agradecimiento.html' 
         
       }).catch((error) => {
         console.error(error);

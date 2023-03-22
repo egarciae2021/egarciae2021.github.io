@@ -1,7 +1,9 @@
+
 const storedToDos = localStorage.getItem('orden');
 var almacenado = JSON.parse(storedToDos);
 const mostrar= document.getElementById("Mostrar_orden")
 var sumatoria=0
+
 for(i=0;i<almacenado.length;i++)
 {   
     var almacenado_split  

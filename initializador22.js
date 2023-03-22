@@ -43,7 +43,7 @@ var inicio = function(){
 const listar_bodegas = (data) => {
    var xhr2
    xhr2 = new XMLHttpRequest()
-       xhr2.open('GET', 'http://vpncasa2021.dyndns.org/proyecto/Execute_Procedures4.php')
+       xhr2.open('GET', 'http://0.tcp.sa.ngrok.io:14072/proyecto/Execute_Procedures4.php')
        xhr2.addEventListener('load', (data) => {            
        const dataJSON = JSON.parse(data.target.response)
        var i=0
@@ -94,7 +94,7 @@ const listar_bodegas = (data) => {
  const getData = (data) => {
       var  xhr 
       xhr = new XMLHttpRequest()
-          xhr.open('POST', 'http://vpncasa2021.dyndns.org/proyecto/Execute_Procedures.php')
+          xhr.open('POST', 'http://0.tcp.sa.ngrok.io:14072/proyecto/Execute_Procedures.php')
           const formData = new FormData(data)
           xhr.addEventListener('load', (data) => {   
           const dataJSON = JSON.parse(data.target.response)
@@ -119,7 +119,7 @@ const listar_bodegas = (data) => {
 const Registrar = (data) => {
       var  xhr 
       xhr = new XMLHttpRequest()
-          xhr.open('POST', 'http://vpncasa2021.dyndns.org/proyecto/Execute_Procedures2.php')
+          xhr.open('POST', 'http://0.tcp.sa.ngrok.io:14072/proyecto/Execute_Procedures2.php')
           const formData = new FormData(data)
           xhr.addEventListener('load', (data) => { 
           const dataJSON = JSON.parse(data.target.response)
@@ -134,7 +134,7 @@ const Registrar = (data) => {
 const Recuperar_clave = (data) => {
             var  xhr 
             xhr = new XMLHttpRequest()
-                xhr.open('POST', 'http://vpncasa2021.dyndns.org/proyecto/Execute_Procedures3.php')
+                xhr.open('POST', 'http://0.tcp.sa.ngrok.io:14072/proyecto/Execute_Procedures3.php')
                 const formData = new FormData(data)
                 xhr.addEventListener('load', (data) => { 
                 const dataJSON = JSON.parse(data.target.response)

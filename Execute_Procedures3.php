@@ -1,8 +1,8 @@
 <?php
     $correo=$_POST["correo"];
     
-    $serverName = "localhost\DESARROLLO";
-     $connectionInfo = array( "Database"=>"master", "UID"=>"sa", "PWD"=>"Atento2019*");
+    $serverName = "localhost";
+     $connectionInfo = array( "Database"=>"web", "UID"=>"sa", "PWD"=>"Atento2019*");
      $conn = sqlsrv_connect( $serverName, $connectionInfo );
      $sql = "exec procedimiento1 "."'".$correo." '"; 
      $stmt = sqlsrv_query( $conn, $sql); 
