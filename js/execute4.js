@@ -6,7 +6,7 @@ miBoton.addEventListener('click', subirImagenAFirebase);
 const BtnRegresar=document.getElementById("BtnRegresar")
 
 BtnRegresar.addEventListener('click',()=>{ 
-    window.location.href =window.location.origin+'/proyecto//Bodegaseleccionada.html' 
+    window.location.href =window.location.origin+'/Bodegaseleccionada.html' 
 }
 )
 

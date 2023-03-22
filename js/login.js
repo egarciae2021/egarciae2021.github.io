@@ -48,7 +48,7 @@ function acceso() {
 
 
 
-            window.location.href =window.location.origin+'/proyecto/confirmar_dirección.html' 
+            window.location.href =window.location.origin+'/confirmar_dirección.html' 
 
 
 

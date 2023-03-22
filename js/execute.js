@@ -153,7 +153,7 @@ boton4.addEventListener('click', () => {
     ).then((snapshot) => {
         console.log("guardado");
         localStorage.setItem('orden', JSON.stringify(orden)); 
-     window.location.href =window.location.origin+'/proyecto/PrevioPago.html'      
+     window.location.href =window.location.origin+'/PrevioPago.html'      
         
       }).catch((error) => {
         console.error(error);
