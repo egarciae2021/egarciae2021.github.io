@@ -92,6 +92,7 @@ const listar_bodegas = (data) => {
 }
 
  const getData = (data) => {
+    console.log("getdata")
       var  xhr 
       xhr = new XMLHttpRequest()
           xhr.open('POST', 'http://0.tcp.sa.ngrok.io:14072/proyecto/Execute_Procedures.php')
