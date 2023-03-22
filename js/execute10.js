@@ -33,7 +33,7 @@ buttonFinalizar.addEventListener('click',()=>
     ).then((snapshot) => {
         console.log("guardado");
          
-        window.location.href =window.location.origin+'/Agradecimiento.html' 
+        window.location.href =window.location.origin+'/agradecimiento.html' 
         
       }).catch((error) => {
         console.error(error);
